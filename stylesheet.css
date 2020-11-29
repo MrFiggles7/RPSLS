@@ -1,0 +1,157 @@
+.userOptions{
+    font-size: 8vw;
+    display: inline-block;
+    float: left;
+    background-color: #FCFFCE;
+    width: 37.5%;
+    text-align: center;
+    height: 100vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+p{
+    font-family: monospace;
+    font-size: x-small;
+}
+
+.centerOptions{
+    margin-top: 1.5em;
+}
+.playField{
+    font-size: 8vw;
+    display: inline-block;
+    float: left;
+    background-color: #E9D5F3;
+    width: 25%;
+    text-align: center;
+    height: 100vh;
+}
+
+.cpuOptions{
+    font-size: 8vw;
+    display: inline-block;
+    float: left;
+    background-color: #BFFBFC;
+    width: 37.5%;
+    text-align: center;
+    height: 100vh;
+}
+
+.yourPick, .theirPick{
+    border-radius: 20px;
+    width: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 14vw;
+}
+.yourPick{
+    border: solid 8px #FCFFCE;
+    margin-top: 1em;
+}
+.theirPick{
+    border: solid 8px #BFFBFC;
+}
+body{
+    height: 100%;
+    background-color: yellow;
+}
+
+h1{
+    font-size: 3vw;
+    font-family: monospace;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    padding: 0;
+}
+.score{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.reset{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 2em;
+    padding-right: 5em;
+}
+button{
+    width: 20vh;
+    height: 2em;
+}
+.btn-light{
+    font-weight: bold;
+    font-size: 2em;
+    border: 8px solid black;
+    padding: 2px;
+    text-align: center;
+}
+.btn-light:hover{
+    font-weight: bold;
+    font-size: 2em;
+    border: 8px solid darkgrey;
+    padding: 2px;
+    text-align: center;
+}
+h2{
+    font-size: 4em;
+    font-family: monospace;
+}
+
+.winmodal{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    padding: 15em;
+    display: none;
+}
+
+
+.winmodal h1{
+    border:  8px solid black;
+    height: 5em;
+    padding: 2em;
+    background-color: #FCFFCE;
+    border-radius: 25px;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.losemodal{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    padding: 15em;
+    display: none;
+}
+
+
+.losemodal h1{
+    border:  8px solid black;
+    height: 5em;
+    padding: 2em;
+    background-color: #FCFFCE;
+    border-radius: 25px;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+
+.rock:hover, .paper:hover, .scissors:hover, .lizard:hover, .spock:hover{
+    cursor: default;
+    filter: sepia(100%);
+}
+.scoreText{
+    display: inline;
+}
